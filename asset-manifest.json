@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/azeosoft/static/css/main.4391795f.css",
+    "main.js": "/azeosoft/static/js/main.e07f0221.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/azeosoft/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/Design.png": "/azeosoft/static/media/Design.20c45e66b028ed6db22c.png",
+    "static/media/web-development.png": "/azeosoft/static/media/web-development.5f94236f6711ef56af6d.png",
+    "static/media/app-development.png": "/azeosoft/static/media/app-development.7ab74e755f69935c9bc1.png",
+    "static/media/graphic-designer.png": "/azeosoft/static/media/graphic-designer.ac5cc1edae28e3741537.png",
+    "static/media/atom.png": "/azeosoft/static/media/atom.ebb56ca47955bdc9fa25.png",
+    "static/media/php-code.png": "/azeosoft/static/media/php-code.294eb9d9e896da2720fb.png",
+    "static/media/coding (1).png": "/azeosoft/static/media/coding (1).ad02d63870968fd4d1e7.png",
+    "static/media/google.png": "/azeosoft/static/media/google.e12914ad8afda3f6f2e8.png",
+    "static/media/app-store.png": "/azeosoft/static/media/app-store.2be29c88bfd54927d5e2.png",
+    "index.html": "/azeosoft/index.html",
+    "main.4391795f.css.map": "/azeosoft/static/css/main.4391795f.css.map",
+    "main.e07f0221.js.map": "/azeosoft/static/js/main.e07f0221.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/azeosoft/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4391795f.css",
+    "static/js/main.e07f0221.js"
+  ]
+}
