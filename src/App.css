@@ -1,5 +1,82 @@
-.App {
+:root {
+  --mainColor: #756cf5;
+  --darkBlack: #111111;
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px !important;
+}
+
+.logo {
+  color: var(--mainColor) !important;
+  font-weight: 700 !important;
+  font-size: 2rem !important;
+}
+
+h4 {
+  text-transform: capitalize;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  color: var(--mainColor) !important;
+}
+
+.header-title {
+  text-transform: capitalize;
+  line-height: 120%;
+  font-size: 3rem !important; 
+}
+
+.text-muted {
+  color: #6c757d !important;
+  line-height: 1.5;
+}
+
+section {
+  padding: 4rem;
+}
+
+span {
+  font-weight: 500;
+  color: var(--mainColor);
+}
+
+.section-title {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
   text-align: center;
+  color: var(--darkBlack);
+  text-transform: capitalize;
+}
+
+.myBtn {
+  text-decoration: none;
+  border: 1px dashed var(--mainColor) !important;
+  padding-inline: 2rem !important;
+  transition: all 0.1s;
+  overflow: hidden;
+}
+
+.myBtn:hover {
+  color: #f1f0fa !important;
+  background: var(--mainColor) !important;
+  border-color: #f1f0fa !important;
+}
+
+.job-btn {
+  background: var(--mainColor) !important;
+  color: #fff !important;
+}
+
+.navbar-nav a {
+  color: var(--darkBlack) !important;
+  font-weight: 400 !important;
 }
 
 .App-logo {
@@ -7,32 +84,72 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hero-section {
+  background: #f1f0fa;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.hero-section .row {
+  justify-content: space-around;
+}
+
+.hero-section button {
+  border: 1px dashed var(--mainColor) !important;
+  padding-inline: 2rem;
+  background: #f1f0fa;
+}
+
+.how-it-works .row h2 {
+  text-transform: capitalize;
+  line-height: 120%;
+  font-size: 3rem !important; 
+}
+
+.question {
+  justify-content: space-around;
+}
+
+.feature-job-categoies {
+  background: #fff;
+}
+
+.feature-job-categoies button {
+  background: #fff !important;
+}
+
+
+.feature-jobs a:hover{
+  background: var(--mainColor) !important;
+  color: #fff !important;
+}
+
+.job-offerd a:hover {
+  background: var(--mainColor) !important;
   color: white;
+  border: 1px dashed white;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover{
+  background: var(--mainColor) !important;
+  color: #fff !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.fa-brands {
+  color: var(--mainColor);
+  font-size: 5rem;
+}
+/* 
+.col-sm-3 {
+  width: 24% !important;
+} */
+
+
+footer {
+  color: white;
+  overflow: hidden;
+}
+
+footer ul {
+  list-style-type: none;
 }
