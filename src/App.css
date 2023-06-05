@@ -105,7 +105,7 @@ span {
 }
 
 .question {
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .feature-job-categoies {
@@ -135,10 +135,6 @@ button:hover{
 
 
 
-.fa-brands {
-  color: var(--mainColor);
-  font-size: 5rem;
-}
 /* 
 .col-sm-3 {
   width: 24% !important;
